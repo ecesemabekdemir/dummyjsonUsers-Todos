@@ -1,0 +1,53 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#usersList {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.data {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 60px;
+}
+
+
+
+li {
+  list-style: none;
+}
+
+.dataBox h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #03346E;
+  margin-bottom: 15px;
+}
+
+span  {
+  color: #03346E;
+}
+
+.dataBox h3, .dataAddress h4 {
+  color: #508C9B;
+
+}
+
+
+.todos {
+ color: #7FA1C3;
+ 
+}
+
+
