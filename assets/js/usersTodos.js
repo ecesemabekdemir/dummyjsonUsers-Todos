@@ -26,7 +26,7 @@ async function render() {
     <div class='dataAddress'>
     <h4><span>Address:</span> ${users[i].address.address} - ${users[i].address.city} - ${users[i].address.state}</h4>
     </div></div>
-  ${todos.map((x) => `<ul class="todos"><li>${x.todo}: <span> ${x.completed}</span></li></ul>`).join("")}</div>`;
+  ${todos.map((x) => `<ul class="${x.completed ? 'done' : ''}"><li>${x.todo}:</li></ul>`).join("")}</div>`;
   }}
 
 render();
